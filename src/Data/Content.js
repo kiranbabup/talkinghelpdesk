@@ -7,7 +7,7 @@ import gfimg from "./images/SVGImgs/Irrigation.svg";
 import ggimg from "./images/SVGImgs/Land.svg";
 import ghimg from "./images/SVGImgs/De-forestation.svg";
 
-export const HeaderComponentHeadText = "సహాయ కేంద్రానికి స్వాగతం";
+export const HeaderComponentHeadText = "ఆన్‌లైన్ పంచాయతీ రాజ్ సహాయ కేంద్రం";
 // export const HeaderComponentHeadText = "Welcome To Grievance Help Desk";
 
 export const MainPageHeadText = "ఫిర్యాదును ఎంచుకోండి";
@@ -15,7 +15,7 @@ export const MainPageHeadText = "ఫిర్యాదును ఎంచుక�
 
 export const Grievances = [
     {
-        GrievanceA:"నీటి సమస్య",
+        GrievanceA:"త్రాగు నీటి సమస్య",
         GrievanceAImg:gaimg,
         GrievanceAE:"Water Issue",
     },
