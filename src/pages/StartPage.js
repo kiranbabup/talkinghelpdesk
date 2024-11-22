@@ -3,8 +3,8 @@ import { Box, Button, Typography } from "@mui/material"
 import apLogo from "../Data/images/apLogo.png";
 import kutami from "../Data/images/kutami.png";
 import cbnfull from "../Data/images/cbn.jfif";
-import modifull from "../Data/images/modi.jpg";
-import pkfull from "../Data/images/pkfull.png";
+import modifull from "../Data/images/pm-modi-full.webp";
+import pkfull from "../Data/images/pk.jpg";
 import prTextimg from "../Data/images/prlogo-2.png";
 // import { HeaderComponentHeadText } from "../Data/Content";
 
@@ -52,8 +52,10 @@ const StartPage = ({ onEnterHome }) => {
                 <Box component="img" src={modifull} alt="imagehere" sx={{ width: "8rem", height: "10rem", objectFit: "cover", }} />
                 <Box component="img" src={pkfull} alt="imagehere" sx={{ width: "8rem", height: "10rem", objectFit: "cover", }} />
             </Box>
-            <Box p={1} />
-            <Button variant="contained" onClick={() => onEnterHome()}>Enter</Button>
+            <Box p={2} />
+            <Box sx={{alignSelf:"center", width:"70%"}}>
+                <Button variant="contained" fullWidth onClick={() => onEnterHome()}>Enter</Button>
+            </Box>
         </Box>
     )
 }

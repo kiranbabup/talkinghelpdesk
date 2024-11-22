@@ -12,7 +12,7 @@ import StartPage from "./StartPage";
 import apLogo from "../Data/images/Andhrapradesh-Logo.svg";
 import cbnsmall from "../Data/images/cbnsmall.jpg";
 import modismall from "../Data/images/modiLogo.jpg";
-import pksmall from "../Data/images/pkshort.jfif";
+import pksmall from "../Data/images/Pawan-Kalyan-half.jpg";
 import prHeadLogo from "../Data/images/panchayathi_logo.png";
 
 const homePageCSS = {
