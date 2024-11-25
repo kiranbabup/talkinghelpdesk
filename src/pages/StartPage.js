@@ -55,6 +55,7 @@ const StartPage = ({ onEnterHome }) => {
             <Box p={2} />
             <Box sx={{alignSelf:"center", width:"70%"}}>
                 <Button variant="contained" fullWidth onClick={() => onEnterHome()}>Enter</Button>
+                {/* కొనసాగించండి */}
             </Box>
         </Box>
     )
